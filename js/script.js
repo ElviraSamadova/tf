@@ -505,6 +505,17 @@ scrollElem.onclick=function(){
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+// mask
+
+let mask = document.querySelector('.mask');
+
+window.addEventListener('load', () => {
+  mask.classList.add('hide');
+  setTimeout(() => {
+    mask.remove();
+  }, 600)
+})
+
 
 
 
