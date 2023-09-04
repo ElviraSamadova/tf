@@ -360,12 +360,12 @@ const langArr = {
 
   br2: {
     en: 'Free breakfast for 4 persons',
-    az: '4 nəfər üçün pulsuz səhər yeməyi'
+    az: '4 nəfər üçün səhər yeməyi daxildir'
   },
 
   br3: {
     en: 'Free accommodation for children under 5 years old',
-    az: '5 yaşa qədər uşaqlar üçün pulsuz yerləşdirmə'
+    az: '5 yaşa qədər uşaqlar üçün ödənişsiz yerləşdirmə'
   },
 
   //section4
@@ -445,7 +445,7 @@ const langArr = {
 
   clock: {
     en: ' Open 24/7',
-    az: '24/7 açıq'
+    az: '24/7 xidmətinizdəyik'
   },
 
   //footer
@@ -504,6 +504,10 @@ window.onscroll = function() {
 scrollElem.onclick=function(){
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+
+
+
 
 
 
